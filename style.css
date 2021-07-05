@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body .container {
+   background-color: hsl(218, 28%, 13%);
+}
+
+body .container .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(217, 28%, 15%);
+    padding: 20px 60px 50px 60px;
+}
+
+body .container .header .logo {
+    color: #fff;
+    font-size: 37px;
+}
+
+body .container .header .logo .logo-logo {
+    margin-right: 10px;
+    position: relative;
+    top: 8px;
+}
+
+body .container .header .navbar {
+    margin: 20px;
+}
+
+body .container .header .navbar ul {
+    display: flex;
+}
+
+body .container .header .navbar ul li {
+    list-style: none;
+    margin-right: 25px;
+    color: rgb(172, 172, 172);
+    font-family: 'Raleway', sans-serif;
+}
+
+body .container .header .navbar ul li:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+}
+
+body .container .section-header {
+    padding: 0 0 150px 0;
+    background-color: hsl(217, 28%, 15%);
+    background-image: url(./images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+body .container .section-header .header-container {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+body .container .section-header .header-container img {
+    height: 500px;
+    width: 45%;
+    margin: 0 auto;
+}
+
+body .container .section-header .header-container h2 {
+    font-size: 32px;
+    width: 35%;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    line-height: 150%;
+    font-family: 'Raleway', sans-serif;
+}
+
+body .container .section-header .header-container p {
+    font-size: 16px;
+    width: 30%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    line-height: 150%;
+    color: rgb(172, 172, 172); 
+}
+
+body .container .section-header .header-container button {
+    width: 15%;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: hsl(176, 44%, 54%);
+    color: #fff;
+    margin: 0 auto;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+body .container .section-header .header-container button:hover {
+    cursor: pointer;
+    background-color: hsl(176, 56%, 60%);
+}
+
+body .container main .section-features {
+    padding: 30px 0 180px 0;
+    background-color: (218, 28%, 13%) !important;
+}
+
+body .container main .section-features .features-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body .container main .section-features .features-container h3 {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+body .container main .section-features .features-container p {
+    color: #fff;
+}
+
+main .section-info {
+    padding-bottom: 150px;
+}
+
+main .section-info .info-container {
+    display: flex;   
+    width: 75%;
+    margin: 0 auto;
+}
+
+main .section-info .info-container .long-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    line-height: 250%;
+}
+
+main .section-info .info-container .long-copy a  {
+    width: 152px;
+    color:hsl(176, 44%, 54%);
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 1px solid hsl(176, 44%, 54%);
+}
+
+main .section-info .info-container .long-copy a:hover {
+    cursor: pointer;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+main .section-info .info-container .long-copy a img {
+    position: relative;
+    top: 3px;
+}
+
+main .section-info .info-container h2 {
+    color: #fff;
+    font-size: 32px;
+    margin: 10px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+main .section-info .info-container p {
+    color: #fff;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+main .section-testimonials {
+    padding-bottom: 320px;
+}
+
+main .section-testimonials .testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 0 5%;
+}
+
+main .section-testimonials .testimonial-container .testimonial-item {
+    background-color:hsl(219, 30%, 18%);
+    margin: 0 30px;
+    color: rgb(172, 172, 172);
+    padding: 30px;
+    z-index: 10;
+}
+
+main .section-testimonials .quote {
+    position: relative;
+    top: 13px;
+    left: 100px;
+}
+
+main .section-testimonials .testimonial-container .testimonial-item .long-copy {
+    margin: 20px 0 50px 0;
+}
+
+main .section-testimonials .testimonial-container .testimonial-item .img-container {
+    margin-right: 10px;
+}
+
+main .section-testimonials .testimonial-container .testimonial-item h3 {
+    margin-bottom: 5px;
+}
+
+main .section-testimonials .testimonial-container .testimonial-item img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+main .section-testimonials .testimonial-container .testimonial-item .testimonial-info {
+    display: flex;
+}
+
+body footer {
+    background-color: hsl(216, 53%, 9%);
+    padding: 20px 10px;
+}
+
+body footer .sign-up {
+    width: 50%;
+    background-color: hsl(217, 28%, 15%);
+    margin: 0 25%;
+    padding: 30px 50px 50px 50px;
+    position: relative;
+    top: -160px;
+}
+
+body footer .sign-up h3 {
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+body footer .sign-up p {
+    color: rgb(227, 227, 227);
+    font-size: 15px;
+    text-align: center;
+    margin: 30px 0;
+}
+
+input[type=email] {
+    padding: 0 0 0 30px ;
+    height: 40px;
+    width: 65%;
+    border-radius: 20px;
+    border: none;
+}
+
+body footer .sign-up button {
+    margin-left: 20px;
+    height: 40px;
+    width: 29%;
+    border-radius: 20px; 
+    padding: 0 10px;
+    background-color: hsl(176, 44%, 54%);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+body footer .sign-up button:hover {
+    cursor: pointer;
+    background-color: hsl(176, 56%, 60%);
+}
+
+body footer .footer {
+    display: flex;
+    color: rgb(227, 227, 227);
+    font-size: 15px;
+    justify-content: space-around;
+    position: relative;
+    top: -90px;
+}
+
+body footer .footer .footer-logo {
+    width: 20%;
+}
+
+body footer .footer .footer-logo .footer-icon {
+    font-size: 43px;
+    position: relative;
+    top: -20px;
+}
+
+body footer .footer .footer-logo .footer-icon:first-of-type {
+    margin-right: 5px;
+}
+
+body footer .footer .footer-logo .location-icon {
+    margin-right: 15px;
+    float: left;
+}
+
+body footer .footer .footer-logo .location {
+   display: grid;
+   grid-template-columns: 1fr 6fr;
+}
+
+body footer .footer .footer-logo  {
+    margin-top: 20px;
+}
+
+body footer .footer .contact {
+    margin-top: 75px; 
+}
+
+body footer .footer .contact .contact-icon {
+    margin-right: 20px;
+}
+
+
+body footer .footer .contact p {
+    margin-bottom: 12px;
+}
+
+body footer .footer .about-us {
+    margin-top: 75px; 
+}
+
+body footer .footer .about-us ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+body footer .footer .contact-us {
+    margin-top: 75px;
+
+}
+
+body footer .footer .contact-us ul li {
+    list-style: none;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+
+body footer .footer .about-us ul li:hover,
+body footer .footer .contact-us ul li:hover {
+    font-weight: 700;
+    color: #fff;
+}
+
+body footer .footer .social-icons {
+    margin-top: 75px;
+    display: flex;
+    font-size: 19px;
+}
+
+body footer .footer .social-icons .social-icon {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+    padding: 5px;
+    
+}
+
+body footer .footer .social-icons .social-icon:hover,
+body footer .footer .social-icons .social-icon:active {
+    color:hsl(176, 44%, 54%);
+    border:1px solid hsl(176, 44%, 54%);
+}
+
+@media only screen and (max-width: 500px)  {
+    body .container .section-header {
+        background-image: url(./images/bg-curvy-mobile.svg);
+    }
+
+    body .container main .section-features .features-container {
+        grid-template-columns: 1fr;
+    }
+
+    main .section-info .info-container {
+       flex-direction: column;
+    }
+
+    main .section-testimonials .testimonial-container {
+        flex-direction: column;
+    }  
+
+    body footer .sign-up {
+        width: 95%;
+        margin: 0 2.5%;
+    }
+
+    body footer .footer {
+       flex-direction: column;
+    }
+}
+
+
+
+
+
